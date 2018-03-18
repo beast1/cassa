@@ -1,0 +1,33 @@
+.counter
+	display: flex
+	justify-content: space-between
+	width: 206px
+
+	&__count-down,
+	&__count-up,
+	&__output
+		width: 33.3%
+		padding: 0
+		border: none
+
+		background-color: transparent
+
+	&__count-down,
+	&__count-up
+		font-size: 0
+
+		background-repeat: no-repeat
+		background-position: center center
+		cursor: pointer
+		
+	&__output
+		font-size: 45px
+		line-height: 1
+		text-align: center
+		
+	&__count-down
+		background-image: url("../img/icon-minus.png")
+		
+	&__count-up
+		background-image: url("../img/icon-plus.png")
+		

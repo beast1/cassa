@@ -1,0 +1,36 @@
+.page-footer
+	flex-shrink: 0
+	width: 100%
+
+	background-color: #222222
+
+	&__custom-container
+		display: flex
+		justify-content: space-between
+		height: 86px
+
+	&__item
+		display: flex
+		align-items: center
+		height: 100%
+
+	&__back
+		display: flex
+		align-items: center
+
+		&::before
+			content: ""
+
+			width: 17px
+			height: 13px
+			margin-right: 20px
+
+			background-size: 17px 13px
+			background-image: url("../img/icon-arrow-left.png")
+
+	&__btns
+		&-item + &-item
+			margin-left: 1px
+
+		&-item
+			padding: 33px 40px

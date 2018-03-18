@@ -1,0 +1,41 @@
+.page-header
+	display: flex
+	justify-content: space-between
+	flex-shrink: 0
+
+	&__logo
+		display: flex
+		align-items: center
+		justify-content: center
+		width: 276px
+		height: 100px
+
+		color: white
+		background-image: linear-gradient(-36deg, #222222 0%, #313131 100%)
+
+		font-size: 44px
+		text-transform: uppercase
+		letter-spacing: 3.52px
+
+	&__basket
+		display: flex
+		align-items: center
+		justify-content: center
+		width: 270px
+		height: 100px
+		padding: 0 76px
+
+		color: white
+		background-color: #d25d36
+
+		text-decoration: none
+
+		&::before
+			content: ""
+
+			flex-shrink: 0
+			width: 25px
+			height: 21px
+			margin-right: 15px
+
+			background-image: url("../img/icon-basket.png")
